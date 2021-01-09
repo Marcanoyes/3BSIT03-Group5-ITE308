@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato',sans-serif;
+   }
+   
+   .bgimg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(27deg, #2C5F2DFF 50%, #FFE77AFF 50%);
+    /* background-image: linear-gradient(27deg, #2C5F2DFF 50%, yellowgreen 50%); */
+   }
+   
+   .centerdiv{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(27deg,  #FFE77AFF 50%, #2C5F2DFF 50%);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+   }
+   
+   #profilepic{
+    width: 120px;
+    height: 120px;
+    /* background: #fff; */
+    /* padding: 10px 5px 10px 5px; */
+    border-radius: 50%;
+    position: relative;
+    top: -60px;
+    left: calc( (350px - 120px) / 2 )
+    
+
+   }
+
+   
+   h2{
+    font-family: 'lato', sans-serif;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2em;
+    word-spacing: 10px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    text-shadow: -2px 2px 1px #0A84C6;
+
+   }
+  
+   .input_container{
+       position: relative;   
+   }
+
+   .input_container i{
+    /* width: 25px;
+    background:#2C5F2DFF ; */
+    color: #aaa;
+    position: absolute;
+    float: 0;
+    top: 0px;
+    left: 28px;
+    padding: 10px 10px;
+
+}
+   .input_container .fa{
+        width: 30px;
+        background: #2C5F2DFF ;
+        color: #fff;
+        padding: 9px 9px;
+        border-radius: 4px 0 0 4px;
+        margin-left: 7px;
+   }
+   .inputbox{
+    width: calc(85% - 50px);
+    height: 34px;
+    display: block;
+    margin-left: 65px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+  
+   }
+
+   ::placeholder{
+    /* padding-left: 20px; */
+    letter-spacing: 2px;
+    color:#aaa;
+   }
+   .signup_section
+   {
+     text-align: center;
+   }
+   .signup_section a
+   {
+       color: #2C5F2DFF;
+       font-size: 13px;
+       font-weight: bold;
+       text-decoration: none;
+       
+   }
+
+ 
+   .forgot_section{
+       text-align: center;
+       
+   }
+   .forgot_section a{
+       color: #2C5F2DFF;
+       font-size: 13px;
+       font-weight: bold;
+       text-decoration: none;
+       
+   }
+   
+   button{
+    width: calc(100% - 55px);
+    height: 30px;
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: #2c5f2d;
+    border: none;
+    border-radius: 20px;
+   }
+   
+ 
